@@ -2,6 +2,7 @@
     margin: 20px 0;
     width: 100vw;
 }
+/* 目の周りの色 */
 .eye-outer {
     width: 200px;
     height: 200px;
@@ -13,6 +14,7 @@
     overflow: hidden;
 }
 
+/* 目の周りのアニメーション設定 */
 .eye-outer ::before {
     content: "";
     position: absolute;
@@ -39,6 +41,7 @@
     }
 }
 
+/* 瞳のアニメーション設定 */
 .eye-outer ::after {
     content: "";
     position: absolute;
